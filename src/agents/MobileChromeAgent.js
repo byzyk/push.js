@@ -73,6 +73,7 @@ export default class MobileChromeAgent extends AbstractAgent {
                 registration
                     .showNotification(title, {
                         icon: options.icon,
+                        badge: options.badge,
                         body: options.body,
                         vibrate: options.vibrate,
                         tag: options.tag,

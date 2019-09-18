@@ -8,6 +8,7 @@ export type Global = {
 export type PushOptions = {
     body?: string,
     icon?: string,
+    badge?: string,
     link?: string,
     timeout?: number,
     tag?: string,
